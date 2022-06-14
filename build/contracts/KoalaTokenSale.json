@@ -6943,12 +6943,12 @@
     "1337": {
       "events": {},
       "links": {},
-      "address": "0x0649E13776c3d7fc668Cd3d0336e616c8bFEa8A5",
-      "transactionHash": "0xba5dff4bc05e44ec5e31655674646ab8391d6966d5463fe51f61ed71b97ea3bc"
+      "address": "0xCEC9EA5c2E525F89A045f50daA42F2C6f7458da0",
+      "transactionHash": "0x83980bcc672f9e61b60d79503bd1e65e0586b054d1e2d384458d6d58d015fc25"
     }
   },
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-06-12T13:23:25.601Z",
+  "updatedAt": "2022-06-14T04:41:22.918Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

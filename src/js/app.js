@@ -109,7 +109,6 @@ App = {
       })
       .then(function (tokensAvailable) {
         App.tokensAvailable = tokensAvailable.toNumber();
-        App.tokensAvailable = 75000;
         $(".tokens-available").html(App.tokensAvailable);
 
         var progressPercent = (App.tokensSold / App.tokensAvailable) * 100;

@@ -9319,14 +9319,65 @@
   },
   "networks": {
     "1337": {
-      "events": {},
+      "events": {
+        "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "_owner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "_spender",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "_value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Approval",
+          "type": "event"
+        },
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "_from",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "_to",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "_value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Transfer",
+          "type": "event"
+        }
+      },
       "links": {},
-      "address": "0xe46C3b2965E94a744FeD337E643B581A849eb28B",
-      "transactionHash": "0xdb42deca901787f023d0fa22d8c4e18c71cbae77f5081c8c14db83013b0c3264"
+      "address": "0xA4316AE02Af00C1AA476cCAab29D2937AaF1C3bE",
+      "transactionHash": "0xecc6bd25f7124b43d1476a4f0cda4c77eb725d7fc6ade392a23a189cf5bc14ca"
     }
   },
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-06-12T13:23:25.596Z",
+  "updatedAt": "2022-06-14T04:41:22.913Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
