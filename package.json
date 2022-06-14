@@ -1,0 +1,16 @@
+{
+  "name": "Koala Token Sale",
+  "version": "1.0.0",
+  "description": "Koala Token Sale ICO",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "author": "Stephen Fong",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
